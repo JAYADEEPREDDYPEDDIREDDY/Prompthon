@@ -1,7 +1,18 @@
+import Eligible from "./components/Eligibile"
+import Hero from "./components/Hero"
+import Projects from "./components/Projects"
+import Purpose from "./components/Purpose"
+import Jury from "./components/Jury"
+import Community from "./components/Community"
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main>
+      <Hero />
+      <Purpose/>
+      <Projects/>
+      <Eligible/>
+      <Jury/>
+      <Community/>
+    </main>
   )
 }
